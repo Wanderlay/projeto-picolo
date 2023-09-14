@@ -14,8 +14,13 @@ app.get('/', (req, res) => {
   res.render('index', { message: 'Olá, Mundo!' });
 });
 
+app.get('/produto', (req, res) => {
+  res.render('produto', { message: 'Olá, Mundo!', foi: "prontooooooooooooooooo" });
+});
+
+
 app.get('/produtos', (req, res) => {
-  res.render('produtos', { message: 'Olá, Mundo!', lista: ["peixe", "brocolis", "mortadela", 1, 3, "pao"]});
+  res.render('produtos', { message: 'Olá, Mundo!', lista: ["peixe", "brocolis", "mortadela", 1, 3, "pao"], lak: ["/produto"]});
 });
 
 app.listen(port, () => {
