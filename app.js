@@ -10,6 +10,9 @@ const aleatorio= function(){
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
+const produtos = [
+ {id: 1, nome: "peixe", preco: "4000", descricao: "jdhdsjhfcgsgh aigfvy iuctdbsf vybgsdufgtsjy dfgticwagug"},]
+
 app.get('/', (req, res) => {
   res.render('index', { message: 'Olá, Mundo!' });
 });
