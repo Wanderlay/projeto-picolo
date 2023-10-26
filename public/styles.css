@@ -2,7 +2,7 @@ h1{
     font-size: 220%;
 }
 .um{
-    background-color: black;
+    background-color: rgb(81, 81, 81);
     color: rgb(24, 219, 34);
 }
 
@@ -12,4 +12,9 @@ a{
 
 .dois{
 align-content: center;
+}
+
+.borda-card-img{
+    border: 5px;
+    border-color: rgb(0, 0, 0);
 }

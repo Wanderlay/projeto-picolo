@@ -39,7 +39,7 @@ app.get('/produto', (req, res) => {
 
 
 app.get('/produtos', (req, res) => {
-  res.render('produtos', { message: 'Olá, Mundo!', lista: listas, lak: ["/produto"]});
+  res.render('produtos', { message: 'Olá, Mundo!', lista: ["peixe", "brocolis", "mortadela", 1, 3, "pao"], lak: ["/produto"]});
 });
 
 app.listen(port, () => {
