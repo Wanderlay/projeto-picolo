@@ -15,7 +15,6 @@ app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
 const listas = [
- {id: 8, nome: "Veja limpador de vidros", preco: "5,00", descricao: "Limpa tao bem se voce passar a lingua no chão voce fica com gosto de veja na boca e talvez doente.", imagem: "veja.png"},
   {
     "id": 1,
     "nome": "The Witcher 3: Wild Hunt",
