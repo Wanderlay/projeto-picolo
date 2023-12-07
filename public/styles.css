@@ -1,10 +1,12 @@
 h1{
     font-size: 220%;
 }
-.um{
+.um {
+    background-image: url("../imagens/fundo.jpg");
     background-color: rgb(81, 81, 81);
-    color: rgb(24, 219, 34);
+    color: rgb(219, 24, 24);
 }
+
 
 a{
     color: aqua;
@@ -18,3 +20,9 @@ align-content: center;
     border: 5px;
     border-color: rgb(0, 0, 0);
 }
+
+.navbar {
+    background-color: #000; 
+    opacity: 0.8;
+  }
+  
