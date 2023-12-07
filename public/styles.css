@@ -26,3 +26,11 @@ align-content: center;
     opacity: 0.8;
   }
   
+.row{
+    align-items: flex-end;
+    align-content: center;
+    align-self: flex-end;
+}
+.col{
+    margin-bottom: 20px;
+}

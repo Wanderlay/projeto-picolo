@@ -69,21 +69,21 @@ const listas = [
     "nome": "Kingdom Come: Deliverance",
     "preco": "50,00",
     "descricao": "Experimente a limpeza impecável com este RPG de mundo aberto realista e historicamente preciso. Limpa tão bem que, se você passar a língua no chão, pode acabar com gosto de Veja na boca e talvez até doente.",
-    "imagem": "kindon.png"
+    "imagem": "kindon.jpg"
   },
   {
     "id": 9,
     "nome": "Path of Exile",
     "preco": "00,00",
     "descricao": "Explore um mundo sombrio e perigoso neste RPG de ação online gratuito. Com foco em exploração de masmorras, personalização profunda de personagens e um extenso sistema de habilidades, Path of Exile oferece uma experiência desafiadora.",
-    "imagem": "path.png"
+    "imagem": "path.jpg"
   },  
   {
     "id": 10,
     "nome": "Cyberpunk 2077",
     "preco": "60,00",
     "descricao": "Um RPG de mundo aberto ambientado em um futuro distópico, onde os jogadores assumem o papel de V, um mercenário em busca da imortalidade. O jogo apresenta uma cidade vibrante, escolhas éticas complexas e um enredo envolvente.",
-    "imagem": "2077.jpeg"
+    "imagem": "2077.jpg"
   }
 ]
 
